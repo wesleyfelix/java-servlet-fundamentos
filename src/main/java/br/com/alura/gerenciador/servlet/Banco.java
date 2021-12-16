@@ -7,6 +7,20 @@ public class Banco {
 	
 	private static List<Empresa> lista = new ArrayList<Empresa>();
 
+	
+	static {
+		Empresa empresa = new Empresa();
+		empresa.setNome("alura");
+		
+		
+		Empresa empresa2 = new Empresa();
+		empresa2.setNome("Caelum");
+		
+		lista.add(empresa);
+		lista.add(empresa2);
+		
+	}
+	
 	public void adiciona(Empresa empresa) {
 		
 		lista.add(empresa);
