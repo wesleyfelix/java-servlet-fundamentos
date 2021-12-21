@@ -1,12 +1,6 @@
-<%
-	String nomeEmpresa = (String)request.getAttribute("empresa");
-	System.out.println(nomeEmpresa);
-
-%>
-
 
 <html>
 	<body>
-	Empresa <%= nomeEmpresa %> cadastrado com sucesso!
+		Empresa ${ empresa } cadastrado com sucesso!
 	</body>
 </html>
