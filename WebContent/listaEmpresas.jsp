@@ -13,6 +13,12 @@
 </head>
 <body>
 
+	
+	<c:if test="${ not empty empresa}">
+		Empresa ${ empresa } cadastrado com sucesso!
+	</c:if>
+	
+	
 	Lista de empresas: <br />
 	
 	
