@@ -20,7 +20,7 @@ public class LoginForm implements Acao{
 		throws ServletException, IOException {
 		
 		
-System.out.println("Cadastrando nova empresa");
+//System.out.println("Cadastrando nova empresa");
 		
 	
 		return "forward:formLogin.jsp";
